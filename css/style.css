@@ -1,4 +1,3 @@
-
 :root {
     --font-sans-serif: "josefin-sans", sans-serif;
     --black: #000;
@@ -12,11 +11,14 @@
 
 html {
     box-sizing: border-box;
-  }
-  *, *:before, *:after {
+}
+
+*,
+*:before,
+*:after {
     box-sizing: inherit;
-  }
-  
+}
+
 
 
 body {
@@ -25,4 +27,14 @@ body {
     color: var(--dark-gray);
     font-size: 20px;
     line-height: 1.7em;
+}
+
+.component-image {
+    border: 1px solid gray;
+    overflow-x: auto;
+}
+
+.component-code {
+    border: 1px solid gray;
+
 }
