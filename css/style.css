@@ -30,11 +30,141 @@ body {
 }
 
 .component-image {
-    border: 1px solid gray;
+    border: 2px solid var(--black);
     overflow-x: auto;
+    text-align: center;
 }
 
 .component-code {
-    border: 1px solid gray;
+    border: 2px solid var(--black);
 
+}
+h1 {
+    font-family: var(--font-sans-serif);
+    font-weight: 400;
+    font-size: 30px;
+    color: var(--dark-gray);
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 7px;
+}
+
+h2 {
+    font-family: var(--font-sans-serif);
+    font-weight: 400;
+    font-size: 25px;
+    color: var(--dark-gray);
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 7px;
+}
+
+h3 {
+    font-family: var(--font-sans-serif);
+    font-weight: 400;
+    font-size: 25px;
+    color: var(--dark-gray);
+    text-transform: uppercase;
+    text-align: left;
+    letter-spacing: 7px; 
+}
+
+.button-link {
+    border: 1px solid var(--dark-gray);
+    padding: 13px 27px 13px 27px;
+    font-family: var(--font-sans-serif);
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--dark-gray);
+}
+
+.link {
+    text-align: center;
+}
+
+#body-copy {
+    text-align: left;
+}
+
+
+/*navbar*/
+#page-nav {
+    width: fit-content;
+    overflow-x: auto;
+}
+
+
+.above-nav {
+    text-align: center;
+    margin: 0px;
+    padding: 2px;
+    height: 30px;
+    background-color: black;
+}
+
+.above-nav p {
+    margin: 0px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    color: white;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(59, 58, 58, 0.603);
+    margin-top: 0px;
+    padding: 20px;
+    height: 60px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.nav-items {
+    display: flex;
+    gap: 50px;
+    list-style-type: none;
+    color: white;
+
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+
+.site-name {
+    margin: 0;
+    padding-left: 35px;
+    color: white;
+}
+
+.brochure {
+    background-color: var(--white);
+    color: black;
+    padding: 5px;
+    
+    
+}
+
+.icons span {
+    margin-left: 10px;
+    font-size: 30px;
+    padding: 0px 5px;
+}
+
+.icons a {
+    text-decoration: none;
+    color: var(--white);
 }
