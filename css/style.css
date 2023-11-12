@@ -39,6 +39,7 @@ body {
     border: 2px solid var(--black);
 
 }
+
 h1 {
     font-family: var(--font-sans-serif);
     font-weight: 400;
@@ -66,7 +67,7 @@ h3 {
     color: var(--dark-gray);
     text-transform: uppercase;
     text-align: left;
-    letter-spacing: 7px; 
+    letter-spacing: 7px;
 }
 
 .button-link {
@@ -136,9 +137,12 @@ a {
 
 .nav-items {
     display: flex;
-    gap: 30px;
+    gap: 20px;
     list-style-type: none;
     color: white;
+    margin-right: 250px;
+    font-weight: 400;
+    font-size: 15px;
 
 }
 
@@ -151,18 +155,19 @@ nav a {
 
 .site-name {
     margin: 0;
-    padding-left: 35px;
+    padding-left: 10px;
     color: white;
-    letter-spacing: 0px;
+    letter-spacing: -1px;
 }
 
 .brochure {
     background-color: var(--white);
     color: black;
     padding: 0px 10px 0px 10px;
+    margin-right: 25px;
     height: 30px;
-    font-size: 17px;    
-    
+    font-size: 17px;
+
 }
 
 
