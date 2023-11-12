@@ -165,14 +165,11 @@ nav a {
     
 }
 
-.icons {
-    display:flex;
-    align-items: center;
-}
 
 .icons span {
     margin-left: 10px;
     font-size: 30px;
+    vertical-align: middle;
 }
 
 .icons a {
