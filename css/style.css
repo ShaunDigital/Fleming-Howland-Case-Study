@@ -226,3 +226,18 @@ nav a {
 .grid-image {
     width: 100%;
 }
+
+/*Made in England Section*/
+
+.image-text-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-container {
+    display: inline-block;
+    text-align: center;
+    padding: 100px;
+}
