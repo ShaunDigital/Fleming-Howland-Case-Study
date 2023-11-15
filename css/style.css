@@ -241,3 +241,7 @@ nav a {
     text-align: center;
     padding: 100px;
 }
+
+.full-image img {
+max-width: 100%;
+}
