@@ -33,12 +33,15 @@ body {
     border: 2px solid var(--black);
     overflow-x: auto;
     text-align: center;
+    margin: 0;
 }
 
 .component-code {
     border: 2px solid var(--black);
 
 }
+
+
 
 /*main heading*/
 h1 {
@@ -242,6 +245,36 @@ nav a {
     padding: 100px;
 }
 
+/* full image section */
+
 .full-image img {
-max-width: 100%;
+    max-width: 100%;
+}
+
+.footer {
+    background-color: var(--dark-gray);
+    color: var(--white);
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: start;
+}
+
+.quicklinks {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    list-style-type: none;
+    
+}
+
+.quicklinks a {
+    color: var(--white);
+}
+
+.footer-pic {
+    max-width: 30%;
 }
