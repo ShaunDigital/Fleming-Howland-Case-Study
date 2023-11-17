@@ -5,6 +5,7 @@
     --gold: #b4924a;
     --light-gray: #A6A6A6;
     --white: #fff;
+    --dark-blue-gray: #292A30;
 }
 
 
@@ -252,7 +253,7 @@ nav a {
 }
 
 .footer {
-    background-color: var(--dark-gray);
+    background-color: var(--dark-blue-gray);
     color: var(--white);
 }
 
