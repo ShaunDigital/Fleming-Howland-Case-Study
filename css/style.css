@@ -20,7 +20,12 @@ html {
     box-sizing: inherit;
 }
 
+/* style guide css*/
 
+.page-title {
+    padding: 25px;
+    background-color: var(--light-gray);
+}
 
 body {
     font-family: var(--font-sans-serif);
@@ -66,7 +71,6 @@ h2 {
     letter-spacing: 7px;
 }
 
-/*h3 is on the style guide only*/
 
 h3 {
     font-family: var(--font-sans-serif);
@@ -208,7 +212,7 @@ nav a {
 
 /*end nav*/
 
-/*video tests*/
+/*videos*/
 
 .video-wrapper {
     position: relative;
@@ -263,6 +267,9 @@ nav a {
     max-width: 100%;
 }
 
+
+/*footer section*/
+
 .footer {
     background-color: var(--dark-blue-gray);
     color: var(--white);
@@ -280,10 +287,9 @@ nav a {
 
 .footer-links {
     display: flex;
-    gap: 90px;
+    gap: 95px;
     margin-left: 75px;
-
-
+    white-space: nowrap;
 }
 
 .quicklinks {
@@ -305,10 +311,10 @@ nav a {
 }
 
 .footer-pic img {
-    max-width: 100%;    
+    max-width: 100%;
 }
 
-.footer-pic p {    
+.footer-pic p {
     margin: 0px;
     font-size: 12px;
 }
@@ -329,15 +335,24 @@ div.footer-pic {
     color: var(--white);
 }
 
+/*input section in footer*/
+
 .submit-button {
     border: 1px solid var(--dark-gray);
     background-color: var(--gold);
     color: var(--white);
-    padding: 13px 27px 13px 27px;
+    padding: 10px 27px 8px 27px;
     font-family: var(--font-sans-serif);
     text-transform: uppercase;
     text-align: center;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 16px;
     letter-spacing: 2px;
+}
+
+/*social icons in footer*/
+
+.footer-icon {
+    width: 25px;
+    height: 25px;
 }
