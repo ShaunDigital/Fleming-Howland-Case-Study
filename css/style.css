@@ -78,6 +78,17 @@ h3 {
     letter-spacing: 7px;
 }
 
+h4 {
+    font-family: var(--font-sans-serif);
+    font-weight: 300;
+    font-size: 16px;
+    color: var(--white);
+    text-transform: uppercase;
+    text-align: left;
+    letter-spacing: 2px;
+    margin-bottom: 2px;
+}
+
 .button-link {
     border: 1px solid var(--dark-gray);
     padding: 13px 27px 13px 27px;
@@ -257,25 +268,76 @@ nav a {
     color: var(--white);
 }
 
-.footer-links {
+.footer-input {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    align-items: start;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding-top: 0px;
+    padding-bottom: 30px;
+}
+
+.footer-links {
+    display: flex;
+    gap: 90px;
+    margin-left: 75px;
+
+
 }
 
 .quicklinks {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
     list-style-type: none;
-    
+    padding: 0;
+    line-height: 25px;
+    width: 125px;
 }
 
 .quicklinks a {
     color: var(--white);
+    font-size: 14px;
 }
 
 .footer-pic {
-    max-width: 30%;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer-pic img {
+    max-width: 100%;    
+}
+
+.footer-pic p {    
+    margin: 0px;
+    font-size: 12px;
+}
+
+div.footer-pic {
+    width: 200px;
+    padding-top: 15px;
+}
+
+.footer-p {
+    text-align: center;
+    padding: 10px 45px 5px 45px;
+    line-height: 10px;
+}
+
+.footer-p h3 {
+    text-align: center;
+    color: var(--white);
+}
+
+.submit-button {
+    border: 1px solid var(--dark-gray);
+    background-color: var(--gold);
+    color: var(--white);
+    padding: 13px 27px 13px 27px;
+    font-family: var(--font-sans-serif);
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 2px;
 }
