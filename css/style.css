@@ -50,6 +50,7 @@ body {
 
 
 /*main heading*/
+
 h1 {
     font-family: var(--font-sans-serif);
     font-weight: 400;
@@ -61,6 +62,7 @@ h1 {
 }
 
 /*section headings*/
+
 h2 {
     font-family: var(--font-sans-serif);
     font-weight: 400;
@@ -89,7 +91,7 @@ h4 {
     color: var(--white);
     text-transform: uppercase;
     text-align: left;
-    letter-spacing: 2px;
+    letter-spacing: 0px;
     margin-bottom: 2px;
 }
 
@@ -232,7 +234,7 @@ nav a {
     height: 100%;
 }
 
-/*Grid Section*/
+/*Products Grid Section*/
 
 .collections-grid {
     display: grid;
@@ -267,6 +269,27 @@ nav a {
     max-width: 100%;
 }
 
+/*fabrics flex section*/
+
+.fabrics {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 10px;    
+    
+}
+
+.fabrics img {
+    height: 388px; 
+    width: auto; 
+}
+
+.fabrics p {
+    text-align: center;
+    width: 95%;
+    padding: 2px 5px 0px 15px;
+}
 
 /*footer section*/
 
@@ -275,15 +298,45 @@ nav a {
     color: var(--white);
 }
 
+/* input section */
+
 .footer-input {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 30px;
     padding-top: 0px;
     padding-bottom: 30px;
 }
+
+input[type=text] {
+    width: 28%;
+    padding: 7px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid var(--white);
+    background-color: var(--dark-gray);
+    color: var(--light-gray);
+    font-weight: 300;
+    font-size: 16px;
+}
+
+
+.submit-button {
+    border: 1px solid var(--dark-gray);
+    background-color: var(--gold);
+    color: var(--white);
+    padding: 10px 27px 10px 27px;
+    font-family: var(--font-sans-serif);
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+/*footer links */
 
 .footer-links {
     display: flex;
@@ -335,24 +388,19 @@ div.footer-pic {
     color: var(--white);
 }
 
-/*input section in footer*/
 
-.submit-button {
-    border: 1px solid var(--dark-gray);
-    background-color: var(--gold);
-    color: var(--white);
-    padding: 10px 27px 8px 27px;
-    font-family: var(--font-sans-serif);
-    text-transform: uppercase;
-    text-align: center;
-    font-weight: 300;
-    font-size: 16px;
-    letter-spacing: 2px;
-}
 
 /*social icons in footer*/
 
 .footer-icon {
     width: 25px;
     height: 25px;
+}
+
+img.footer-icon {
+    margin: 0px 4px 0px 4px;
+}
+
+p.copyright {
+    letter-spacing: 1px;
 }
