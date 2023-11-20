@@ -204,7 +204,6 @@ nav a {
     margin-top: 55px;
   }
   
-  /* Links inside the dropdown */
   .dropdown-content a {
     float: none;
     color: black;
@@ -214,13 +213,11 @@ nav a {
     text-align: left;
   }
   
-  /* Add a grey background color to dropdown links on hover */
   .dropdown-content a:hover {
     background-color: var(--white);
     text-decoration: underline;
   }
   
-  /* Show the dropdown menu on hover */
   .dropdown:hover .dropdown-content {
     display: block;
   }
@@ -296,6 +293,22 @@ nav a {
 .grid-image {
     width: 100%;
 }
+
+.text-overlay {
+    position: relative;
+    bottom: 27%;
+    background-color: rgba(68, 66, 66, 0.61); 
+    height: 60px;
+    
+}
+
+.text-overlay h2 {
+    color: var(--white);
+    font-weight: 300;
+    padding-top: 15px;
+}
+
+
 
 /*Made in England Section*/
 
