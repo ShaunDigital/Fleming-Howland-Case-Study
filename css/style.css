@@ -218,7 +218,7 @@ nav a {
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     overflow: auto;
-    margin-top: 55px;
+    margin-top: 40px;
   }
   
   .dropdown-content a {
@@ -231,7 +231,6 @@ nav a {
   }
   
   .dropdown-content a:hover {
-    background-color: var(--white);
     text-decoration: underline;
   }
   
@@ -239,7 +238,7 @@ nav a {
     display: block;
   }
 
-.nav-items a:hover {
+.nav-items li a:hover {
     border-bottom: .25rem solid var(--white);
 }
 
