@@ -192,7 +192,7 @@ a {
 nav a {
     color: white;
     text-decoration: none;
-    padding: 10px;
+    padding: 5px;
 
 }
 
@@ -201,7 +201,7 @@ nav a {
     font-size: 16px;
     color: white;
     text-align: center;
-    padding: 5px 8px;
+    padding: 2px 8px;
     text-decoration: none;
   }
 
@@ -219,6 +219,7 @@ nav a {
     z-index: 1;
     overflow: auto;
     margin-top: 40px;
+    transition-duration: 2s;
   }
   
   .dropdown-content a {
