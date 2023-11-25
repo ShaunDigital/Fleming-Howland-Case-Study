@@ -22,10 +22,6 @@ html {
 
 /* style guide css*/
 
-.page-title {
-    padding: 25px;
-    background-color: var(--light-gray);
-}
 
 body {
     font-family: var(--font-sans-serif);
@@ -35,30 +31,6 @@ body {
     line-height: 1.7em;
 }
 
-.component-image {
-    border: 2px solid var(--black);
-    overflow-x: auto;
-    text-align: center;
-    margin: 0;
-}
-
-.component-name {
-    font-family: var(--font-sans-serif);
-    font-weight: 400;
-    font-size: 25px;
-    color: var(--dark-gray);
-    text-transform: uppercase;
-    text-align: left;
-    letter-spacing: 7px;
-}
-
-.component-code {
-    border: 2px solid var(--black);
-}
-
-.component-code h3 {
-    text-align: center;
-}
 
 /*main heading*/
 
@@ -106,11 +78,6 @@ h4 {
     margin-bottom: 2px;
 }
 
-.style-guide-h4 {
-    color: var(--black);
-    text-align: center;
-
-}
 
 .button-link {
     border: 1px solid var(--dark-gray);
@@ -132,16 +99,20 @@ a {
     text-align: center;
 }
 
-#body-copy {
-    text-align: left;
+.body-copy {
+    text-align: center;
+    display: inline-block;
+    margin-top: -50px;
+    padding: 0px 30px 10px 30px;
 }
 
 
 /*navbar*/
 
-#page-nav {
-    width: 100%;
-    overflow-x: auto;
+
+.nav {
+    padding: 0px;
+    margin: 0px
 }
 
 
@@ -280,11 +251,15 @@ nav a {
 /*videos*/
 
 .video-wrapper {
+    margin-top: -170px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
     position: relative;
     overflow: hidden;
     width: 100%;
     padding-top: 56.25%;
-    /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+        /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+    z-index: -1;
 }
 
 .responsive-iframe {
