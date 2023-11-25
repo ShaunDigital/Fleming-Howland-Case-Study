@@ -1,0 +1,489 @@
+:root {
+    --font-sans-serif: "josefin-sans", sans-serif;
+    --black: #000;
+    --dark-gray: #3E3E40;
+    --gold: #b4924a;
+    --light-gray: #A6A6A6;
+    --white: #fff;
+    --dark-blue-gray: #292A30;
+}
+
+
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+/* style guide css*/
+
+.page-title {
+    padding: 25px;
+    background-color: var(--light-gray);
+}
+
+body {
+    font-family: var(--font-sans-serif);
+    font-weight: 300;
+    color: var(--dark-gray);
+    font-size: 20px;
+    line-height: 1.7em;
+}
+
+.component-image {
+    border: 2px solid var(--black);
+    overflow-x: auto;
+    text-align: center;
+    margin: 0;
+}
+
+.component-name {
+    font-family: var(--font-sans-serif);
+    font-weight: 400;
+    font-size: 25px;
+    color: var(--dark-gray);
+    text-transform: uppercase;
+    text-align: left;
+    letter-spacing: 7px;
+}
+
+.component-code {
+    border: 2px solid var(--black);
+}
+
+.component-code h3 {
+    text-align: center;
+}
+
+/*main heading*/
+
+h1 {
+    font-family: var(--font-sans-serif);
+    font-weight: 400;
+    font-size: 30px;
+    color: var(--dark-gray);
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 7px;
+}
+
+/*section headings*/
+
+h2 {
+    font-family: var(--font-sans-serif);
+    font-weight: 400;
+    font-size: 25px;
+    color: var(--dark-gray);
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 7px;
+}
+
+
+h3 {
+    font-family: var(--font-sans-serif);
+    font-weight: 300;
+    font-size: 23px;
+    color: var(--dark-gray);
+    text-transform: uppercase;
+    text-align: left;
+    letter-spacing: 2px;
+}
+
+h4 {
+    font-family: var(--font-sans-serif);
+    font-weight: 300;
+    font-size: 16px;
+    color: var(--white);
+    text-transform: uppercase;
+    text-align: left;
+    letter-spacing: 0px;
+    margin-bottom: 2px;
+}
+
+.style-guide-h4 {
+    color: var(--black);
+    text-align: center;
+
+}
+
+.button-link {
+    border: 1px solid var(--dark-gray);
+    padding: 13px 27px 13px 27px;
+    font-family: var(--font-sans-serif);
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--dark-gray);
+}
+
+.link {
+    text-align: center;
+}
+
+#body-copy {
+    text-align: left;
+}
+
+
+/*navbar*/
+
+#page-nav {
+    width: 100%;
+    overflow-x: auto;
+}
+
+
+.above-nav {
+    text-align: center;
+    margin: 0px;
+    padding: 4px;
+    height: 40px;
+    background-color: black;
+    font-family: var(--font-sans-serif);
+    font-weight: 400;
+    font-size: 10px;
+    letter-spacing: 1px;
+}
+
+.above-nav p {
+    margin: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: white;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(59, 58, 58, 0.603);
+    margin-top: 0px;
+    padding: 20px;
+    height: 60px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.nav-items {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    color: white;
+    margin-right: 250px;
+    font-weight: 400;
+    font-size: 15px;
+    overflow: hidden;   
+
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+
+}
+
+.nav-items a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 2px 8px;
+    text-decoration: none;
+  }
+
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.404);
+    width: 300px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    overflow: auto;
+    margin-top: 40px;
+    transition-duration: 2s;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 10px 10px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    text-decoration: underline;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+.nav-items li a:hover {
+    border-bottom: .25rem solid var(--white);
+}
+
+.site-name {
+    margin: 0;
+    padding-left: 5px;
+    color: white;
+    letter-spacing: -1px;
+    white-space: nowrap;
+}
+
+.brochure {
+    background-color: var(--white);
+    color: black;
+    padding: 0px 10px 0px 13px;
+    margin-right: 25px;
+    height: 30px;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.icons span {
+    margin-left: 10px;
+    font-size: 30px;
+    vertical-align: middle;
+    
+}
+
+.icons a {
+    text-decoration: none;
+    color: var(--white);
+
+}
+
+/*end nav*/
+
+/*videos*/
+
+.video-wrapper {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%;
+    /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+
+.responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/*Products Grid Section*/
+
+.collections-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 20px;
+    padding: 5px;
+    margin: 10px;
+}
+
+.grid-image {
+    width: 100%;
+}
+
+.text-overlay {
+    position: relative;
+    bottom: 27%;
+    background-color: rgba(68, 66, 66, 0.61); 
+    height: 60px;
+    
+}
+
+.text-overlay h2 {
+    color: var(--white);
+    font-weight: 300;
+    padding-top: 15px;
+}
+
+
+
+/*Made in England Section*/
+
+.image-text-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-container {
+    display: inline-block;
+    text-align: center;
+    padding: 100px;
+}
+
+/* full image section */
+
+.full-image img {
+    max-width: 100%;
+}
+
+/*fabrics flex section*/
+
+.fabrics {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 10px;    
+    
+}
+
+.fabrics img {
+    height: 388px; 
+    width: auto; 
+}
+
+.fabrics p {
+    text-align: center;
+    width: 95%;
+    padding: 2px 5px 0px 15px;
+}
+
+/*footer section*/
+
+.footer {
+    background-color: var(--dark-blue-gray);
+    color: var(--white);
+}
+
+.footer-p h2 {
+    color: var(--white);
+}
+
+/* input section */
+
+.footer-input {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-top: 0px;
+    padding-bottom: 30px;
+}
+
+input[type=text] {
+    width: 28%;
+    padding: 7px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid var(--white);
+    background-color: var(--dark-gray);
+    color: var(--light-gray);
+    font-weight: 300;
+    font-size: 16px;
+}
+
+
+.submit-button {
+    border: 1px solid var(--dark-gray);
+    background-color: var(--gold);
+    color: var(--white);
+    padding: 10px 27px 10px 27px;
+    font-family: var(--font-sans-serif);
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+/*footer links */
+
+.footer-links {
+    display: flex;
+    gap: 95px;
+    margin-left: 75px;
+    white-space: nowrap;
+}
+
+.quicklinks {
+    list-style-type: none;
+    padding: 0;
+    line-height: 25px;
+    width: 125px;
+}
+
+.quicklinks a {
+    color: var(--white);
+    font-size: 14px;
+}
+
+.footer-pic {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer-pic img {
+    max-width: 100%;
+}
+
+.footer-pic p {
+    margin: 0px;
+    font-size: 12px;
+}
+
+div.footer-pic {
+    width: 200px;
+    padding-top: 15px;
+}
+
+.footer-p {
+    text-align: center;
+    padding: 10px 45px 5px 45px;
+    line-height: 10px;
+}
+
+.footer-p h3 {
+    text-align: center;
+    color: var(--white);
+}
+
+
+
+/*social icons in footer*/
+
+.footer-icon {
+    width: 25px;
+    height: 25px;
+}
+
+img.footer-icon {
+    margin: 0px 4px 0px 4px;
+}
+
+p.copyright {
+    letter-spacing: 1px;
+}
