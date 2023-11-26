@@ -29,6 +29,7 @@ body {
     color: var(--dark-gray);
     font-size: 20px;
     line-height: 1.7em;
+    margin: 0px;
 }
 
 
@@ -99,10 +100,17 @@ a {
     text-align: center;
 }
 
-.body-copy {
+.body-copy-modified {
     text-align: center;
     display: inline-block;
     margin-top: -50px;
+    padding: 0px 30px 10px 30px;
+}
+
+.body-copy-standard {
+    text-align: center;
+    display: inline-block;
+    margin-top: 5px;
     padding: 0px 30px 10px 30px;
 }
 
@@ -156,7 +164,7 @@ a {
     margin-right: 250px;
     font-weight: 400;
     font-size: 15px;
-    overflow: hidden;   
+    overflow: hidden;
 
 }
 
@@ -174,41 +182,41 @@ nav a {
     text-align: center;
     padding: 2px 8px;
     text-decoration: none;
-  }
+}
 
-  .dropdown {
+.dropdown {
     float: left;
     overflow: hidden;
-  }
+}
 
-  .dropdown-content {
+.dropdown-content {
     display: none;
     position: absolute;
     background-color: rgba(255, 255, 255, 0.404);
     width: 300px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
     overflow: auto;
     margin-top: 40px;
     transition-duration: 2s;
-  }
-  
-  .dropdown-content a {
+}
+
+.dropdown-content a {
     float: none;
     color: black;
     padding: 10px 10px;
     text-decoration: none;
     display: block;
     text-align: left;
-  }
-  
-  .dropdown-content a:hover {
+}
+
+.dropdown-content a:hover {
     text-decoration: underline;
-  }
-  
-  .dropdown:hover .dropdown-content {
+}
+
+.dropdown:hover .dropdown-content {
     display: block;
-  }
+}
 
 .nav-items li a:hover {
     border-bottom: .25rem solid var(--white);
@@ -237,7 +245,7 @@ nav a {
     margin-left: 10px;
     font-size: 30px;
     vertical-align: middle;
-    
+
 }
 
 .icons a {
@@ -258,7 +266,7 @@ nav a {
     overflow: hidden;
     width: 100%;
     padding-top: 56.25%;
-        /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+    /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
     z-index: -1;
 }
 
@@ -285,13 +293,17 @@ nav a {
 .grid-image {
     width: 100%;
 }
+.grid-item {
+    margin: 0px;
+    padding: 0px;
+}
 
 .text-overlay {
     position: relative;
-    bottom: 27%;
-    background-color: rgba(68, 66, 66, 0.61); 
+    bottom: 26.5%;
+    background-color: rgba(68, 66, 66, 0.61);
     height: 60px;
-    
+
 }
 
 .text-overlay h2 {
@@ -309,12 +321,14 @@ nav a {
     flex-direction: row-reverse;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 20px;
 }
 
 .text-container {
     display: inline-block;
     text-align: center;
-    padding: 100px;
+    padding: 0px 15px 0px 15px;
+    line-height: 3.5rem;
 }
 
 /* full image section */
@@ -330,13 +344,13 @@ nav a {
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
-    gap: 10px;    
-    
+    gap: 10px;
+
 }
 
 .fabrics img {
-    height: 388px; 
-    width: auto; 
+    height: 388px;
+    width: auto;
 }
 
 .fabrics p {
