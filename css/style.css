@@ -6,6 +6,7 @@
     --light-gray: #A6A6A6;
     --white: #fff;
     --dark-blue-gray: #292A30;
+    --very-light-gray: #E3E3E3;
 }
 
 
@@ -91,6 +92,18 @@ h4 {
     letter-spacing: 2px;
 }
 
+.button-link-color {
+    border: 1px solid var(--dark-gray);
+    background-color: var(--white);
+    padding: 13px 27px 13px 27px;
+    font-family: var(--font-sans-serif);
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
 a {
     text-decoration: none;
     color: var(--dark-gray);
@@ -98,20 +111,31 @@ a {
 
 .link {
     text-align: center;
+    margin: 10px 0px 30px 0px;
 }
 
 .body-copy-modified {
     text-align: center;
     display: inline-block;
-    margin-top: -50px;
-    padding: 0px 30px 10px 30px;
+    margin-top: -60px;
+    padding: 0px 30px 20px 30px;
 }
 
 .body-copy-standard {
     text-align: center;
     display: inline-block;
-    margin-top: 5px;
+    margin-top: 15px;
+    margin-bottom: 25px;
     padding: 0px 30px 10px 30px;
+}
+
+.body-copy-color {
+    text-align: center;
+    display: inline-block;
+    height: 350px;
+    line-height: 50px;
+    padding: 0px 20px 0px 20px;
+    background-color: var(--very-light-gray);
 }
 
 
@@ -293,6 +317,7 @@ nav a {
 .grid-image {
     width: 100%;
 }
+
 .grid-item {
     margin: 0px;
     padding: 0px;
@@ -331,11 +356,16 @@ nav a {
     line-height: 3.5rem;
 }
 
-/* full image section */
+/* full image sections */
 
-.full-image img {
+.full-image img{
     max-width: 100%;
 }
+
+.full-image {
+    height: 393px;
+}
+
 
 /*fabrics flex section*/
 
